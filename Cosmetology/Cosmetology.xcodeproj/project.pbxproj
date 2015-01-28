@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A83138F1A793505007B3CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A83138E1A793505007B3CEC /* main.m */; };
+		9A8313921A793505007B3CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8313911A793505007B3CEC /* AppDelegate.m */; };
+		9A8313951A793505007B3CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8313941A793505007B3CEC /* ViewController.m */; };
+		9A8313981A793505007B3CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8313961A793505007B3CEC /* Main.storyboard */; };
+		9A83139A1A793505007B3CEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8313991A793505007B3CEC /* Images.xcassets */; };
+		9A83139D1A793505007B3CEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A83139B1A793505007B3CEC /* LaunchScreen.xib */; };
+		9A8313A91A793505007B3CEC /* CosmetologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8313A81A793505007B3CEC /* CosmetologyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A8313A31A793505007B3CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A8313811A793505007B3CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8313881A793505007B3CEC;
+			remoteInfo = Cosmetology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A8313891A793505007B3CEC /* Cosmetology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosmetology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A83138D1A793505007B3CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A83138E1A793505007B3CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A8313901A793505007B3CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A8313911A793505007B3CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A8313931A793505007B3CEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A8313941A793505007B3CEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A8313971A793505007B3CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A8313991A793505007B3CEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A83139C1A793505007B3CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A8313A21A793505007B3CEC /* CosmetologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmetologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8313A71A793505007B3CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8313A81A793505007B3CEC /* CosmetologyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosmetologyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A8313861A793505007B3CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A83139F1A793505007B3CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A8313801A793505007B3CEC = {
+			isa = PBXGroup;
+			children = (
+				9A83138B1A793505007B3CEC /* Cosmetology */,
+				9A8313A51A793505007B3CEC /* CosmetologyTests */,
+				9A83138A1A793505007B3CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A83138A1A793505007B3CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8313891A793505007B3CEC /* Cosmetology.app */,
+				9A8313A21A793505007B3CEC /* CosmetologyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A83138B1A793505007B3CEC /* Cosmetology */ = {
+			isa = PBXGroup;
+			children = (
+				9A8313901A793505007B3CEC /* AppDelegate.h */,
+				9A8313911A793505007B3CEC /* AppDelegate.m */,
+				9A8313931A793505007B3CEC /* ViewController.h */,
+				9A8313941A793505007B3CEC /* ViewController.m */,
+				9A8313961A793505007B3CEC /* Main.storyboard */,
+				9A8313991A793505007B3CEC /* Images.xcassets */,
+				9A83139B1A793505007B3CEC /* LaunchScreen.xib */,
+				9A83138C1A793505007B3CEC /* Supporting Files */,
+			);
+			path = Cosmetology;
+			sourceTree = "<group>";
+		};
+		9A83138C1A793505007B3CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A83138D1A793505007B3CEC /* Info.plist */,
+				9A83138E1A793505007B3CEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A8313A51A793505007B3CEC /* CosmetologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A8313A81A793505007B3CEC /* CosmetologyTests.m */,
+				9A8313A61A793505007B3CEC /* Supporting Files */,
+			);
+			path = CosmetologyTests;
+			sourceTree = "<group>";
+		};
+		9A8313A61A793505007B3CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8313A71A793505007B3CEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A8313881A793505007B3CEC /* Cosmetology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8313AC1A793505007B3CEC /* Build configuration list for PBXNativeTarget "Cosmetology" */;
+			buildPhases = (
+				9A8313851A793505007B3CEC /* Sources */,
+				9A8313861A793505007B3CEC /* Frameworks */,
+				9A8313871A793505007B3CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmetology;
+			productName = Cosmetology;
+			productReference = 9A8313891A793505007B3CEC /* Cosmetology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A8313A11A793505007B3CEC /* CosmetologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8313AF1A793505007B3CEC /* Build configuration list for PBXNativeTarget "CosmetologyTests" */;
+			buildPhases = (
+				9A83139E1A793505007B3CEC /* Sources */,
+				9A83139F1A793505007B3CEC /* Frameworks */,
+				9A8313A01A793505007B3CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A8313A41A793505007B3CEC /* PBXTargetDependency */,
+			);
+			name = CosmetologyTests;
+			productName = CosmetologyTests;
+			productReference = 9A8313A21A793505007B3CEC /* CosmetologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A8313811A793505007B3CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hanchun;
+				TargetAttributes = {
+					9A8313881A793505007B3CEC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9A8313A11A793505007B3CEC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9A8313881A793505007B3CEC;
+					};
+				};
+			};
+			buildConfigurationList = 9A8313841A793505007B3CEC /* Build configuration list for PBXProject "Cosmetology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A8313801A793505007B3CEC;
+			productRefGroup = 9A83138A1A793505007B3CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8313881A793505007B3CEC /* Cosmetology */,
+				9A8313A11A793505007B3CEC /* CosmetologyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A8313871A793505007B3CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8313981A793505007B3CEC /* Main.storyboard in Resources */,
+				9A83139D1A793505007B3CEC /* LaunchScreen.xib in Resources */,
+				9A83139A1A793505007B3CEC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A8313A01A793505007B3CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A8313851A793505007B3CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8313951A793505007B3CEC /* ViewController.m in Sources */,
+				9A8313921A793505007B3CEC /* AppDelegate.m in Sources */,
+				9A83138F1A793505007B3CEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A83139E1A793505007B3CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8313A91A793505007B3CEC /* CosmetologyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A8313A41A793505007B3CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A8313881A793505007B3CEC /* Cosmetology */;
+			targetProxy = 9A8313A31A793505007B3CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A8313961A793505007B3CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A8313971A793505007B3CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A83139B1A793505007B3CEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A83139C1A793505007B3CEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A8313AA1A793505007B3CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A8313AB1A793505007B3CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A8313AD1A793505007B3CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cosmetology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A8313AE1A793505007B3CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cosmetology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A8313B01A793505007B3CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CosmetologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cosmetology.app/Cosmetology";
+			};
+			name = Debug;
+		};
+		9A8313B11A793505007B3CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CosmetologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cosmetology.app/Cosmetology";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A8313841A793505007B3CEC /* Build configuration list for PBXProject "Cosmetology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8313AA1A793505007B3CEC /* Debug */,
+				9A8313AB1A793505007B3CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8313AC1A793505007B3CEC /* Build configuration list for PBXNativeTarget "Cosmetology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8313AD1A793505007B3CEC /* Debug */,
+				9A8313AE1A793505007B3CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A8313AF1A793505007B3CEC /* Build configuration list for PBXNativeTarget "CosmetologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A8313B01A793505007B3CEC /* Debug */,
+				9A8313B11A793505007B3CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A8313811A793505007B3CEC /* Project object */;
+}
